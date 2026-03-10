@@ -1,0 +1,45 @@
+body {
+  font-family: Arial;
+}
+
+h1 {
+  font-size: 32pt;
+  text-align: center;
+}
+
+p {
+  font-size: 14pt !important; 
+  text-align: justify;
+}
+
+.picture {
+  text-align: center;
+}
+
+.special {
+  color: #FF0000;
+  font-family: "Monotype Corsiva";
+}
+
+p.greeting {
+  font-size: 24pt;
+}
+
+.picture img {
+  width: 25%;
+}
+
+h1 em {
+  color: orange;
+  font-style: normal;  
+}
+
+li strong {
+  color: green;
+  text-decoration: underline;
+}
+
+li a {
+  font-family: Arial;
+  color: blue;
+}

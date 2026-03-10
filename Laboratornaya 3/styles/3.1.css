@@ -1,0 +1,45 @@
+table.catalog {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table.catalog td {
+  border-top: black thin dotted;
+  border-bottom: black thin dotted;
+  padding: 10px;
+  vertical-align: top;
+}
+
+table.catalog img {
+  width: 200px;
+  border-radius: 5px;
+}
+
+table.catalog h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+table.price {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 20px auto;
+}
+
+table.price th {
+  background-color: #f2f2f2;
+  border: grey thin solid;
+  padding: 8px;
+  font-weight: bold;
+}
+
+table.price td {
+  border: grey thin solid;
+  padding: 8px;
+}
+
+table.price tfoot td {
+  font-style: italic;
+  text-align: right;
+  background-color: #f9f9f9;
+}

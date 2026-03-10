@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Еда на вынос — Суши-бар «Сакура»</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #fdf6ec; color: #333; }
+        header { background-color: #c0392b; color: white; padding: 20px 30px; text-align: center; }
+        header h1 { margin: 0; font-size: 2.2em; }
+        nav { float: left; width: 150px; margin: 10px 30px 10px 0px; padding: 10px; border: black medium double; border-radius: 10px; background-color: #fff8f0; }
+        nav div { font-size: 14pt; margin-top: 5px; margin-bottom: 5px; }
+        nav a { text-decoration: none; color: #c0392b; }
+        nav a:hover { text-decoration: underline; }
+        main { margin-left: 200px; padding: 20px 30px; }
+        main h2 { color: #c0392b; }
+        footer { clear: both; background-color: #333; color: #ccc; text-align: center; padding: 15px; font-size: 0.9em; }
+        footer a { color: #fad7a0; }
+        form { background-color: #fff8f0; border: 1px solid #e0c090; border-radius: 10px; padding: 20px 30px; max-width: 600px; }
+        label { font-weight: bold; color: #6b3a2a; }
+        input[type="text"] { width: 100%; padding: 6px; margin-top: 4px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box; }
+        select { padding: 4px; border: 1px solid #ccc; border-radius: 5px; }
+        input[type="submit"] { background-color: #c0392b; color: white; border: none; padding: 10px 25px; border-radius: 6px; cursor: pointer; font-size: 1em; margin-top: 10px; }
+        input[type="submit"]:hover { background-color: #a93226; }
+    </style>
+</head>
+<body>
+    <header><h1>🍣 Суши-Бар «Сакура»</h1></header>
+    <nav>
+        <div><a href="index.html">Главная</a></div>
+        <div><a href="catalogosn.html">Горячие блюда</a></div>
+        <div><a href="catalogsushi.html">Суши</a></div>
+        <div><a href="catalogroll.html">Роллы</a></div>
+        <div><a href="pricelist.html">Прайс-лист</a></div>
+        <div><a href="order.html">Заказ столика</a></div>
+        <div>Еда на вынос</div>
+    </nav>
+    <main>
+        <h2>Заказ еды на вынос</h2>
+        <form action="mailto:order@yokogama.ru" method="post" enctype="text/plain">
+            <p>
+                <label for="phone">По какому телефону Вам перезвонить?</label><br>
+                <input type="text" name="phone" id="phone" required>
+            </p>
+            <p>
+                <label for="dishes">Что желаете заказать?</label><br>
+                <select name="dishes" id="dishes" size="6" multiple>
+                    <optgroup label="Горячие блюда">
+                        <option value="fuzilli">Фузилли с кальмаром</option>
+                        <option value="tomyam">Том Ям</option>
+                        <option value="gyoza">Гёдза</option>
+                        <option value="miso">Мисо-суп</option>
+                        <option value="ramen">Рамен</option>
+                        <option value="tempura">Темпура</option>
+                        <option value="yakisoba">Якисоба</option>
+                    </optgroup>
+                    <optgroup label="Суши">
+                        <option value="nigiri_salmon">Нигири с лососем</option>
+                        <option value="nigiri_tuna">Нигири с тунцом</option>
+                        <option value="nigiri_eel">Нигири с угрём</option>
+                        <option value="nigiri_shrimp">Нигири с креветкой</option>
+                        <option value="gunkan_ikra">Гункан с икрой</option>
+                        <option value="gunkan_tobiko">Гункан с тобико</option>
+                    </optgroup>
+                    <optgroup label="Роллы">
+                        <option value="california">Калифорния</option>
+                        <option value="philadelphia">Филадельфия</option>
+                        <option value="dragon">Дракон</option>
+                        <option value="spicy">Спайси лосось</option>
+                        <option value="baked">Запечённый с креветкой</option>
+                        <option value="rainbow">Радуга</option>
+                    </optgroup>
+                </select>
+            </p>
+            <p><input type="submit" value="Отправить"></p>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Суши-Бар «Сакура»</p>
+        <p><a href="mailto:panchenkonb@tyuiu.ru">panchenkonb@tyuiu.ru</a></p>
+    </footer>
+</body>
+</html>
